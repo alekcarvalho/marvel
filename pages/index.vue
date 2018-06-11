@@ -53,7 +53,7 @@ export default {
   },
 
   async asyncData () {
-    const data = await axios.get('http://gateway.marvel.com/v1/public/series?limit=12&apikey=50ede0c40704d09749e334857d9e4bda')
+    const data = await axios.get('http://gateway.marvel.com/v1/public/series?apikey=50ede0c40704d09749e334857d9e4bda')
     return { series: data.data.data.results }
   },
 

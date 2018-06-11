@@ -197,7 +197,7 @@ export default {
   position: fixed;
   z-index: 9999;
   right: 0;
-  color:$primary!important;
+  color:$default!important;
 }
 
 .navbar-menu.is-active{
@@ -214,10 +214,10 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: $default;
+    background: $primary;
     a{
       font-size: 1.6rem;
-      color: $primary!important;
+      color: $default!important;
       font-weight: 700;
       text-transform: uppercase;
       margin-bottom: 1rem;
