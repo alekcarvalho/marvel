@@ -134,7 +134,7 @@ export default {
 }
 .card-link:hover{
   .title{
-    color: #B9CB41;
+    color: #ED1B2A;
   }
 }
 .starability-basic{
